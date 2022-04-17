@@ -46,9 +46,6 @@ function creatCactus() {
     let leftInterval = setInterval(() => {
         cactusPosition -= 18;
         cactus.style.left = cactusPosition + 'px';
-        if (cactusPosition < -60) {
-            claerInterval(leftTimer);
-        }
     }, 20);
 }
 
